@@ -21,13 +21,13 @@ include 'head.php';
              PHP version <?= phpversion(); ?>
             </div>
             <h1 class="mb-4 text-4xl font-black text-black dark:text-white">
-              My server on
+              Http Host: 
               <span class="text-blue-600 dark:text-blue-500"><?= $server ?></span>
             </h1>
             <h2
               class="text-xl font-medium leading-relaxed text-gray-700 dark:text-gray-300"
             >
-           Ireo misy information avy any amin'ny php, ahitantsika verion sy ilay serveur misy azy.
+           Ireo misy information avy any amin'ny php , ahitantsika verion (phpversion()) sy http host ($_SERVER['HTTP_HOST']) misy azy.
             </h2>
             <div
               class="flex flex-col justify-center space-y-2 pb-16 pt-10 sm:flex-row sm:items-center sm:space-x-2 sm:space-y-0 lg:justify-start"
