@@ -1,6 +1,6 @@
 <?php 
 
-$server = $_SERVER['SERVER_NAME'];
+$server = $_SERVER['HTTP_HOST'];
 
 include 'head.php';
 ?>
