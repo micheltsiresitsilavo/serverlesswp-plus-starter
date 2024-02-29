@@ -1,6 +1,6 @@
 <?php 
 
-$server = $_SERVER['DOCUMENT_ROOT'];
+$server = $_SERVER['SERVER_NAME'];
 
 include 'head.php';
 ?>
